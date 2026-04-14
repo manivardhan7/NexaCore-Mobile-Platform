@@ -1,5 +1,6 @@
 name: nexacore_mobile_platform
-description: NexaCore Mobile Platform - Enterprise-grade cross-platform mobile application frameworkpublish_to: 'none'
+description: NexaCore Mobile Platform - Enterprise-grade cross-platform mobile application framework
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -8,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
