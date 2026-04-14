@@ -1,62 +1,65 @@
 # NexaCore Mobile Platform
 
-An enterprise-grade cross-platform mobile application framework built with Flutter and Dart. NexaCore Mobile Platform provides a robust foundation for developing high-performance, scalable mobile applications with modern Material Design UI.
+A cross-platform mobile application built with Flutter and Dart. This project provides a clean starting point for building modern mobile apps with Material Design.
 
 ## Features
-- Cross-platform support (iOS & Android)
-- Material Design 3 UI components
-- High-performance architecture
-- Customizable themes and styling
-- Comprehensive widget testing
-- Modular and maintainable codebase
+
+- Cross-platform support for Android and iOS
+- Material Design 3 interface
+- Flutter-based project structure
+- Widget testing setup
+- Linting support for cleaner code
 
 ## Tech Stack
 
-- **Framework:** Flutter SDK (>=3.0.0)
+- **Framework:** Flutter SDK
 - **Language:** Dart
 - **UI:** Material Design 3
-- **Testing:** Flutter Test Framework
+- **Testing:** Flutter Test
 - **Code Quality:** Flutter Lints
 
 ## Project Structure
 
-```
+```text
 nexacore_mobile_platform/
 ├── lib/
-│   └── main.dart           # Application entry point
+│   └── main.dart
 ├── test/
-│   └── widget_test.dart    # Widget tests
-├── pubspec.yaml            # Dependencies
-└── analysis_options.yaml   # Linting rules
+│   └── widget_test.dart
+├── pubspec.yaml
+└── analysis_options.yaml
 ```
 
 ## Getting Started
 
 ### Prerequisites
 
-- Flutter SDK (>=3.0.0)
+- Flutter SDK
 - Dart SDK
-- IDE (VS Code, Android Studio, or IntelliJ)
+- VS Code, Android Studio, or IntelliJ IDEA
 
 ### Installation
 
-1. Clone the repository
+1. Clone the repository:
+
 ```bash
 git clone https://github.com/manivardhan7/NexaCore-Mobile-Platform.git
 cd NexaCore-Mobile-Platform
 ```
 
-2. Install dependencies
+2. Install dependencies:
+
 ```bash
 flutter pub get
 ```
 
-3. Run the application
+3. Run the app:
+
 ```bash
 flutter run
 ```
 
-### Running Tests
+### Run Tests
 
 ```bash
 flutter test
@@ -64,4 +67,4 @@ flutter test
 
 ## License
 
-This project is available for educational and development purposes.
+This project is intended for educational and development use.
